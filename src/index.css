@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*
+{
+  margin:0;
+  padding:0;
+  /* outline: 2px solid red; */
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+.btns
+{
+  @apply bg-orange-300  p-2 text-xl hover:bg-white hover:text-orange-300 hover:border-2 hover:border-orange-400;
+}
